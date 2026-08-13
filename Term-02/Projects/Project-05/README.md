@@ -24,3 +24,22 @@ The transport network operates strictly around Tehran as the central hub node:
 /
 /
 [City D]
+---
+
+## 📁 Input CSV File Formats
+
+The executable requires two CSV configuration files passed as command-line parameters at runtime.
+
+### 1. Trucks Data File (`trucks.csv`)
+Contains unique truck IDs and maximum load weight capacities.
+```csv
+truck_id,capacity
+1,100
+2,150
+3,200
+4,50
+2. Cities Data File (cities.csv)
+Contains city names and their direct distances (in km) from Tehran.
+city_name,distance
+Arak,500
+Isfahan,700
