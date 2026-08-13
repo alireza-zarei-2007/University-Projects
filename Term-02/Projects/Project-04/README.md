@@ -13,6 +13,7 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 ## Board Layout
 
 ### Grid Coordinates
+|    |    |    |    |    |    |    |
 |----|----|----|----|----|----|----|
 | A1 | A2 | A3 | A4 | A5 | A6 | A7 |
 | B1 | B2 | B3 | B4 | B5 | B6 | B7 |
@@ -23,6 +24,7 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 | G1 | G2 | G3 | G4 | G5 | G6 | G7 |
 
 ### Hole Positions (Fixed)
+|   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|
 | X | X | 0 | 0 | 0 | X | X |
 | X | X | 0 | 0 | 0 | X | X |
@@ -50,13 +52,15 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 ---
 
 ## Sample Input 1
-XXOOOXX
-XXOOOXX
-0000000
-OONOONO
-0000NNO
-XXONOXX
-XXOOOXX
+|   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|
+| X | X | O | O | O | X | X |
+| X | X | O | O | O | X | X |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| O | O | N | O | O | N | O |
+| 0 | 0 | 0 | 0 | N | N | O |
+| X | X | O | N | O | X | X |
+| X | X | O | O | O | X | X |
 
 ## Sample Output 1
 E6 LEFT F4 UP D3 RIGHT D6 LEFT
@@ -64,13 +68,15 @@ E6 LEFT F4 UP D3 RIGHT D6 LEFT
 ---
 
 ## Sample Input 2
-XXOOOXX
-XXOOOXX
-OOOOOOO
-OONOOOO
-OOOOOOO
-XXONOXX
-XXOOOXX
+|   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|
+| X | X | O | O | O | X | X |
+| X | X | O | O | O | X | X |
+| O | O | O | O | O | O | O |
+| O | O | N | O | O | O | O |
+| O | O | O | O | O | O | O |
+| X | X | O | N | O | X | X |
+| X | X | O | O | O | X | X |
 
 ## Sample Output 2
 Loser
