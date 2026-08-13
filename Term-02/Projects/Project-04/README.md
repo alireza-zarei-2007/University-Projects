@@ -13,7 +13,6 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 ## Board Layout
 
 ### Grid Coordinates
-|    |    |    |    |    |    |    |
 |----|----|----|----|----|----|----|
 | A1 | A2 | A3 | A4 | A5 | A6 | A7 |
 | B1 | B2 | B3 | B4 | B5 | B6 | B7 |
@@ -24,13 +23,14 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 | G1 | G2 | G3 | G4 | G5 | G6 | G7 |
 
 ### Hole Positions (Fixed)
-XX000XX
-XX000XX
-0000000
-0000000
-0000000
-XX000XX
-XX000XX
+|---|---|---|---|---|---|---|
+| X | X | 0 | 0 | 0 | X | X |
+| X | X | 0 | 0 | 0 | X | X |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| X | X | 0 | 0 | 0 | X | X |
+| X | X | 0 | 0 | 0 | X | X |
 
 - `X` = Hole (cannot be occupied)
 - `0` = Empty space (cells with `0` in the hole pattern)
