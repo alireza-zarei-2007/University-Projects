@@ -26,13 +26,13 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 ### Hole Positions (Fixed)
 |   |   |   |   |   |   |   |
 |---|---|---|---|---|---|---|
-| X | X | 0 | 0 | 0 | X | X |
-| X | X | 0 | 0 | 0 | X | X |
-| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| X | X | 0 | 0 | 0 | X | X |
-| X | X | 0 | 0 | 0 | X | X |
+| X | X | O | O | O | X | X |
+| X | X | O | O | O | X | X |
+| O | O | O | O | O | O | O |
+| O | O | O | O | O | O | O |
+| O | O | O | O | O | O | O |
+| X | X | O | O | O | X | X |
+| X | X | O | O | O | X | X |
 
 - `X` = Hole (cannot be occupied)
 - `0` = Empty space (cells with `0` in the hole pattern)
@@ -56,9 +56,9 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 |---|---|---|---|---|---|---|
 | X | X | O | O | O | X | X |
 | X | X | O | O | O | X | X |
-| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| O | O | O | O | O | O | O |
 | O | O | N | O | O | N | O |
-| 0 | 0 | 0 | 0 | N | N | O |
+| O | O | O | O | N | N | O |
 | X | X | O | N | O | X | X |
 | X | X | O | O | O | X | X |
 
