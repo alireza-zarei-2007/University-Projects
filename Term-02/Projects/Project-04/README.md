@@ -35,7 +35,7 @@ The game is played on a 7×7 board with holes (X) that cannot be occupied. Playe
 | X | X | O | O | O | X | X |
 
 - `X` = Hole (cannot be occupied)
-- `0` = Empty space (cells with `0` in the hole pattern)
+- `O` = Empty space (cells with `O` in the hole pattern)
 
 ---
 
